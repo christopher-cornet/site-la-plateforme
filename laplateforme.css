@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(#000851 0%, #0c295f 100%);
+    background-position: center;
+    background-size: cover;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    max-height: 100px;
+}
+
+/* Navbar */
+.navbar {
+    color: white;
+    display: flex;
+    text-align: center;
+    max-height: 50px;
+}
+.navbar p {
+    color: white;
+    display: flex;
+    text-align: center;
+    margin: 23px 20px 0px 0px;
+}
+.navbar p a {
+    color: white;
+    text-decoration: none;
+}
+.navbar p a:hover {
+    color: rgb(255, 208, 0);
+}
+.container {
+    max-height: 50px;
+}
+.navbar img {
+    margin: 10px 120px 0px 10px;
+    height: 70px;
+    width: 80px;
+    border-radius: 15%;
+}
+
+.search-bar {
+    width: 100%;
+    max-width: 300px;
+    max-height: 50px;
+    background: rgba(255,255,255,0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 10px 5px 0px 0px;
+}
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 18px;
+    font-size: 15px;
+    color: #ffffff;
+}
+::placeholder {
+    color: #ffffff;
+}
+.search-bar button {
+    height: 50px;
+    width: 50px;
+    padding-left: 5px;
+}
+
+.laplateforme {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    margin-left: 212px;
+    margin-top: 150px;
+}
+.laplateforme2 {
+    display: inline-block;
+    color: rgb(127, 153, 187);
+    margin-left: 212px;
+    margin-top: 15px;
+}
+
+/* La Plateforme en nombres */
+.laplateformechiffres {
+    display: flex;
+    justify-content: center;
+    margin: 200px 548px 0px 0px;
+    color: #ffffff;
+}
+.laplateformechiffres:hover {
+    color: rgb(255, 208, 0);
+    cursor: pointer;
+}
+
+.laplateformechiffres2 {
+    display: flex;
+    justify-content: center;
+    margin: 5px 580px 0px 0px;
+    color: rgb(127, 153, 187);
+}
+.laplateformechiffres p {
+    margin: 0px 150px 0px 0px;
+}
+.laplateformechiffres2 p {
+    margin: 0px 100px 0px 0px;
+}
+
+/* Qui somme nous */
+
+.qui-sommes-nous {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    margin-left: 212px;
+    margin-top: 150px;
+}
+.qui-sommes-nous2 {
+    display: inline-block;
+    color: rgb(127, 153, 187);
+    margin-left: 212px;
+    margin-top: 15px;
+}
+
+/* Plateforme-start */
+
+.whiteline{
+    width: 100%;
+    height: 100px;
+    background: rgb(255, 255, 255);
+    margin: 50px 0px 0px 0px;
+}
+.title1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 0px 0px 0px;
+}
+.title2 p {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
