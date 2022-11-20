@@ -17,6 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     max-height: 100px;
+    min-height: 80px;
 }
 
 /* Navbar */
@@ -84,7 +85,7 @@ header {
     display: inline-block;
     color: rgb(255, 255, 255);
     margin-left: 212px;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .laplateforme2 {
     display: inline-block;
@@ -97,7 +98,7 @@ header {
 .laplateformechiffres {
     display: flex;
     justify-content: center;
-    margin: 200px 548px 0px 0px;
+    margin: 100px 550px 0px 0px;
     color: #ffffff;
 }
 .laplateformechiffres:hover {
@@ -109,6 +110,7 @@ header {
     justify-content: center;
     margin: 5px 580px 0px 0px;
     color: rgb(127, 153, 187);
+    font-size: 16px;
 }
 .laplateformechiffres p {
     margin: 0px 150px 0px 0px;
@@ -117,12 +119,69 @@ header {
     margin: 0px 100px 0px 0px;
 }
 
+/* Cards accueil */
+.carreformations {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0px 0px 0px;
+    border-radius: 50%;
+    text-align: center;
+}
+.carre1 {
+    height: 480px;
+    width: 300px;
+    background-color: #ffffff;
+    margin: 50px 0px 0px 0px;
+    border-radius: 5%;
+}
+.carre2 {
+    height: 480px;
+    width: 300px;
+    background-color: #ffffff;
+    margin: 50px 0px 0px 0px;
+    border-radius: 5%;
+}
+.carre3 {
+    height: 450px;
+    width: 300px;
+    background-color: #ffffff;
+    margin: 50px 0px 0px 0px;
+    border-radius: 5%;
+}
+.carreformations img {
+    height: 130px;
+    width: 120px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+.carreformations p {
+    margin: 10px 15px 0px 15px;
+    color: #275FA0;
+}
+.carreformations a {
+    text-decoration: none;
+}
+
+/* Boutons */
+.carreformations button {
+    border-radius: 25px;
+    background-color: #fff200;
+    border: none;
+    padding: 10px 24px;
+    font-size: 14px;
+    margin-top: 15px;
+    max-width: 90%;
+}
+.carreformations button:hover {
+    background-color: #f0e40c;
+}
+
 /* Qui somme nous */
 .qui-sommes-nous {
     display: inline-block;
     color: rgb(255, 255, 255);
     margin-left: 212px;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .qui-sommes-nous2 {
     display: inline-block;
@@ -130,24 +189,30 @@ header {
     margin-left: 212px;
     margin-top: 15px;
 }
+.qui-sommes-nous-video {
+    width: "530px";
+    height: "295px";
+    display: flex;
+    justify-content: center;
+}
+.qui-sommes-nous-video iframe{
+    padding: 20px 0px 20px 0px;
+    margin: 0;
+}
 
 /* Plateforme-start */
-.whiteline{
+.title1 {
+    text-align: center;
     width: 100%;
-    height: 100px;
+    height: 150px;
     background: rgb(255, 255, 255);
     margin: 50px 0px 0px 0px;
-}
-.title1 {
-    display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    padding: 30px 0px 0px 0px;
-}
-.title2 p {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 0px;
 }
 
 /* AWS reStart */
@@ -175,36 +240,31 @@ header {
 }
 
 .rectangleaws {
-    height: 400px;
-    width: 100%;
-    background-color: #f2f2f2;
-    margin: 50px 0px 0px 0px;
-    display: flex;
-    justify-content: space-evenly;
-}
-.rectangleaws img {
-    height: 120px;
-    width: 120px;
-}
-.imagesaws {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 100px;
+    grid-column-gap: 35px;
     grid-row-gap: 0px;
-}
-.imagesaws img {
-    padding-left: 25px;
+    height: 300px;
+    width: 100%;
+    background-color: #f2f2f2;
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+    align-items: center;
+}    
+.rectangleaws img {
+    height: 120px;
+    width: 120px;
 }
 .awsrestart1 {
     color: #e17b32;
 }
 
 /* Page NEWS */
-.rectanglenews {
+.rectanglenews-1 {
     display: flex;
     justify-content: space-evenly;
-    margin: 100px 0px 0px 0px;
+    margin: 50px 0px 0px 0px;
     border-radius: 50%;
 }
 .rectanglenews1 {
@@ -228,17 +288,17 @@ header {
     margin: 50px 0px 0px 0px;
     border-radius: 5%;
 }
-.rectanglenews1 img {
+.rectanglenews-1 img {
     height: 208px;
     width: 300px;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
 }
-.rectanglenews1 p {
+.rectanglenews-1 p {
     margin: 10px 15px 0px 15px;
     color: #000;
 }
-.rectanglenews1 p:hover {
+.rectanglenews-1 p:hover {
     color: #e17b32;
 }
 .rectanglenews a {
@@ -258,9 +318,6 @@ header {
 .rectanglenews2 p:hover {
     color: #e17b32;
 }
-.rectanglenews a {
-    text-decoration: none;
-}
 
 .rectanglenews3 img {
     height: 208px;
@@ -275,7 +332,83 @@ header {
 .rectanglenews3 p:hover {
     color: #e17b32;
 }
-.rectanglenews a {
+.rectanglenews-1 a {
+    text-decoration: none;
+}
+
+/* 2eme ligne de NEWS*/
+.rectanglenews-2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0px 0px 0px;
+    border-radius: 50%;
+}
+.rectanglenews4 {
+    height: 400px;
+    width: 300px;
+    background-color: #f2f2f2;
+    margin: 50px 0px 0px 0px;
+    border-radius: 5%;
+}
+.rectanglenews5 {
+    height: 400px;
+    width: 300px;
+    background-color: #f2f2f2;
+    margin: 50px 0px 0px 0px;
+    border-radius: 5%;
+}
+.rectanglenews6 {
+    height: 400px;
+    width: 300px;
+    background-color: #f2f2f2;
+    margin: 50px 0px 0px 0px;
+    border-radius: 5%;
+}
+.rectanglenews-2 img {
+    height: 208px;
+    width: 300px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+.rectanglenews4 p {
+    margin: 10px 15px 0px 15px;
+    color: #000;
+}
+.rectanglenews-2 p:hover {
+    color: #e17b32;
+}
+.rectanglenews-2 a {
+    text-decoration: none;
+}
+
+.rectanglenews5 img {
+    height: 208px;
+    width: 300px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+.rectanglenews5 p {
+    margin: 10px 15px 0px 15px;
+    color: #000;
+}
+.rectanglenews5 p:hover {
+    color: #e17b32;
+}
+
+.rectanglenews6 img {
+    height: 208px;
+    width: 300px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+.rectanglenews6 p {
+    margin: 10px 15px 0px 15px;
+    color: #000;
+}
+.rectanglenews6 p:hover {
+    color: #e17b32;
+}
+.rectanglenews-2 a {
     text-decoration: none;
 }
 
